@@ -1,6 +1,7 @@
 Kaggle platformuna yüklenmiş Hababam Sınıfı karakterlerinin görselleri ile eğitilmiş yüz tanıma sistemi çalışması
 
 Notebook linki:	https://www.kaggle.com/mgnay57/face-recognition-encrypting
+
 Veri Seti:	https://www.kaggle.com/mgnay57/hababam-snf
 
 
