@@ -23,16 +23,16 @@ Toplam -         485 Görsel
 
 Test Görselleri
 
-Adile Naşit - 20 Görsel
-Ahmet Arıman - 23 Görsel
-Cem Gürdap - 25 Görsel
-Cengiz Nezir - 25 Görsel
-Feridun Şavlı - 25 Görsel
-Halit Akçatepe - 25 Görsel
-Kemal Sunal -25 Görsel
-Münir Özkul - 20 Görsel
-Şener Şen - 24 Görsel
-Tarık Akan - 23 Görsel
-Diğer Kişiler - 57 Görsel
+Adile Naşit -    20  
+Ahmet Arıman -   23  
+Cem Gürdap -     25  
+Cengiz Nezir -   25  
+Feridun Şavlı -  25  
+Halit Akçatepe - 25  
+Kemal Sunal -    25  
+Münir Özkul -    20  
+Şener Şen -      24  
+Tarık Akan -     23  
+Diğer Kişiler -  57  
 
-Toplam - 290 Görsel
+Toplam -         290 Görsel
