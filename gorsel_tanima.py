@@ -4,6 +4,8 @@ import pickle
 import cv2
 import os
 
+TOLERANCE = 0.5
+
 # dışarıdan görsel dizinini argüman olarak alma işlemi
 parser = argparse.ArgumentParser()
 parser.add_argument("gorsel_dizini", help="görselin dizini")
@@ -31,7 +33,7 @@ bulunan_isimler = []
 for nitelik in nitelikler:
     # attempt to match each face in the input image to our known
     # encodings
-    bulunan_yuzler = face_recognition.compare_faces(data["encodings"], nitelik)
+    bulunan_yuzler = face_recognition.compare_faces(data["encodings"], nitelik, TOLERANCE)
     isim = "Unknown"
 
     # check to see if we have found a match
@@ -53,10 +55,10 @@ for nitelik in nitelikler:
 
 for ((top, right, bottom, left), isim) in zip(koordinat, bulunan_isimler):
     # Bulunan ismi yazdır
-    cv2.rectangle(image, (left, top), (right, bottom), (255, 50, 50), 2)
+    cv2.rectangle(image, (left, top), (right, bottom), (20, 255, 20), 2)
     y = top - 15 if top - 15 > 15 else top + 15
     cv2.putText(image, isim, (left, y), cv2.FONT_HERSHEY_SIMPLEX,
-                0.75, (255, 50, 50), 2)
+                0.75, (20, 255, 20), 2)
 
 
 dosya_adi = os.path.splitext(dizin.split(os.path.sep)[-1])[0]
